@@ -6,9 +6,9 @@ import Weather from './components/Weather'
 function App() {
   return (
     <div className="App">
-    <Weather />
     <Router>
       <Header />
+      <Weather />
       <Switch>
       </Switch>
     </Router>
