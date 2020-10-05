@@ -2,7 +2,8 @@ html, body {
   height: 100%;
   font-size: 16px;
   box-sizing: border-box;
-  background-color: #F4F1DE;
+  background-color: #3D405B;
+  color: white;
 }
 
 *, *::before, *::after {
@@ -18,4 +19,15 @@ html, body {
   font-family: "Bree Serif";
   color: white;
   padding: 8px;
+}
+
+.current-weather-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  padding: 8px;
+  background-color: #F4F1DE;
+  color: black;
+  font-family: "Montserrat";
+  border-radius: 8px;
 }
